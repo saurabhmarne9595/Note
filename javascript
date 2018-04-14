@@ -27,7 +27,9 @@
 
 
 
-
+to Learn{
+1:map
+}
 
 
 
