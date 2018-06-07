@@ -1,0 +1,39 @@
+ Turn your RPi3 to a  Beacon
+
+
+sudo su
+
+
+
+Enable Bluetooth in Raspberry Pi 3:
+
+
+
+hciconfig hci0 up
+
+
+
+Let Bluetooth advertise and make it not-connectable
+
+
+
+hciconfig hci0 leadv 3
+
+
+
+http://yencarnacion.github.io/eddystone-url-calculator/
+
+
+
+Set up an advertisement which Raspi3 will broadcast (in my case the URL is http://www.edupoli.fi):
+
+
+
+hcitool -i hci0 cmd 0x08 0x0008 18 02 01 06 03 03 aa fe 10 16 aa fe 10 00 00 65 64 75 70 6f 6c 69 2e 66 69 00 00 00 00 00 00 00
+
+For more Options Related to Beacon Visit:
+https://hackaday.io/project/10314-raspberry-pi-3-as-an-eddystone-url-beacon
+
+
+for more details in beacon
+https://github.com/google/eddystone
