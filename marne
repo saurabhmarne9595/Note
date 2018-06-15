@@ -1,0 +1,8 @@
+  997  git init
+  998  git add -A stages All
+  999  git add -A express_project1/
+ 1000  git add .
+ 1001  git commit -m "First commit"
+ 1002  git remote add origin https://github.com/saurabhmarne9595/vehicle.git
+ 1003  git remote -v
+ 1004  git push origin master
