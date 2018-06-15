@@ -13,3 +13,26 @@ https://help.github.com/articles/adding-an-existing-project-to-github-using-the-
     git add . stages new and modified, without deleted
 
     git add -u stages modified and deleted, without new
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i am marne want to change 
+  997  git init
+  998  git add -A stages All
+  999  git add -A express_project1/
+ 1000  git add .
+ 1001  git commit -m "First commit"
+ 1002  git remote add origin https://github.com/saurabhmarne9595/vehicle.git
+ 1003  git remote -v
+ 1004  git push origin master
